@@ -19,5 +19,8 @@ export default {
   data: () => ({
     //
   }),
+  created () {
+    document.title = "Николай Меренков";
+  }
 };
 </script>
